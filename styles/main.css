@@ -1,0 +1,138 @@
+body {
+	background: -webkit-linear-gradient(#1089A3, #036379);
+	background: -o-linear-gradient(#1089A3, #036379);
+	background: linear-gradient(#1089A3, #036379);
+	background-repeat: no-repeat;
+	height: 10000px;
+	margin: 0;
+	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+}
+
+.timeline {
+	border-left: 2px solid #fff;
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+.timeline_left {
+	float: left;
+	height: 100%;
+	width: 49%;
+}
+
+.life_event {
+	height: 360px;
+	width: 80%;
+	margin: 50px auto;
+	border: 2px solid #fff;
+	border-radius: 7px;
+	background: #fff;
+  position: relative;
+}
+
+.life_event:before {
+	content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 39%;
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #fff;
+    border-bottom: 30px solid transparent;
+}
+
+.life_event_left {
+	display: block;
+	height: 360px;
+	width: 80%;
+	margin: 50px auto;
+	border: 2px solid #fff;
+	border-radius: 7px;
+	background: #fff;
+  position: relative;
+}
+
+.life_event_left:before {
+		content: "";
+    width: 0;
+    height: 0;
+    left: 100%;
+    top: 39%;
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-left: 30px solid #fff;
+    border-bottom: 30px solid transparent;
+}
+
+.content {
+	width: 88%;
+	height: 80%;
+	margin: 6% auto 5% 6%;
+	color: #1089A3;
+}
+
+.first {
+	margin: 0;
+	font-family: 'Work Sans', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.3em;
+	font-weight: 600;
+	line-height: 1.3em;
+	letter-spacing: 0.05em;
+}
+
+.second {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Work Sans', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 0.9em;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 200;
+}
+
+.half-width h1 {
+	text-align: center;
+}
+
+article p {
+	text-align: justify;
+	margin: 15px 0 35px 0;
+	letter-spacing: 0.03em;
+	line-height: 1.4em;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.left p {
+	width: 70%;
+	padding: 0 15%;
+	text-align: center;
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+.right p {
+	width: 70%;
+	padding: 0 15%;
+	text-align: center;
+}
+
+
+
