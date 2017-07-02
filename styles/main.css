@@ -19,7 +19,7 @@ body {
 .timeline_left {
 	float: left;
 	height: 100%;
-	width: 49%;
+	width: 49.8%;
 }
 
 .life_event {
@@ -56,25 +56,25 @@ body {
 }
 
 .life_event_left:before {
-		content: "";
-    width: 0;
-    height: 0;
-    left: 100%;
-    top: 39%;
-    position: absolute;
-    border-top: 30px solid transparent;
-    border-left: 30px solid #fff;
-    border-bottom: 30px solid transparent;
+	content: "";
+  width: 0;
+  height: 0;
+  left: 100%;
+  top: 39%;
+  position: absolute;
+  border-top: 30px solid transparent;
+  border-left: 30px solid #fff;
+  border-bottom: 30px solid transparent;
 }
 
 .content {
 	width: 88%;
 	height: 80%;
 	margin: 6% auto 5% 6%;
-	color: #1089A3;
+	color: #A3084F;
 }
 
-.first {
+h1.first {
 	margin: 0;
 	font-family: 'Work Sans', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.3em;
@@ -83,13 +83,17 @@ body {
 	letter-spacing: 0.05em;
 }
 
-.second {
+h1.second {
 	margin: 0;
 	text-transform: uppercase;
 	font-family: 'Work Sans', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 0.9em;
 	font-weight: 600;
 	line-height: 1em;
+}
+
+.life_event_left h1 {
+	text-align: right;
 }
 
 h2 {
